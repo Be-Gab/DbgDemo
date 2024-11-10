@@ -1,13 +1,10 @@
 # DbgDemo
 
-This is a simple sample program on how to use the Dbg widget.
+This simple example show
+Debug your LUA sript on tx screen in a widget in Companion.  
+You can send formatted messages to the "log" window.  
 
-__Works only on TX16S radio transmitter!__
-
-To use it, you must first install the Dbg widget : 
-https://github.com/Be-Gab/Dbg
-
-More details in the Dbg widget description.
+All added information will appear in the widget ordered by name (msg).
 
 ![Image](./widget_screen_example.jpg)
 
@@ -19,13 +16,9 @@ The variables added with the add() function do not follow the change in the valu
 Do not use the Dbg widget in a production environment.  
 Only use it in the Companion program during development!
 
-## Pictures
+## Import into your code
+### Install
+Download this widget, copy to your sdcard \WIDGET\Dbg directory and take this widget to the screen in Companion.
+### The code
 
-![Image](./widget_screen_example-2.jpg)
-
-![Image](./widget_screen_example-3.jpg)
-
-![Image](./widget_screen_example-4.jpg)
-
-![Image](./widget_screen_example-5.jpg)
-
+Use this codes beginning of your widget under developing.
